@@ -1,0 +1,103 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cajaHeader{
+    background-color: rgb(38, 179, 239);
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
+}
+
+a{
+    font-size: 20px;
+    color: black;
+    border: solid rgb(38, 179, 239) 2.5px;
+    border-radius: 6px;
+    background-color: rgb(255, 121, 165);
+    transition: 0.3s;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+a:hover{
+    background-color: rgb(255, 205, 0);
+    border: solid black 2.5px;
+}
+
+.cajaContenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.contenido{
+    display: flex;
+    font-size: 40px;
+}
+
+.cajaFoto{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contenedorFoto{
+    border: solid rgb(255, 121, 165) 25px;
+    box-shadow: 10px 10px 5px rgb(65, 64, 64);
+}
+
+.contenedorFooter{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border-top: solid black 10px;
+    margin-top: 20px;
+    background-color: rgb(38, 179, 239);
+}
+
+#mailPersonal{
+    background-color: rgb(80, 249, 123);
+    border: none;
+}
+
+#wpp{
+    background-color: rgb(80, 249, 123);
+    border: none;
+}
+
+#mailMarcos{
+    background-color: rgb(80, 249, 123);
+    border: none;
+}
+
+#mailNoemi{
+    background-color: rgb(80, 249, 123);
+    border: none;
+}
+
+
